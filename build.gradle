@@ -17,7 +17,7 @@ buildscript {
  
 apply plugin: 'forge'
  
-version = "1.7.10-0.0.0-alpha"
+version = "1.7.10-0.0.1-alpha"
 group= "net.sparklepopprograms.enchantedaura"
 archivesBaseName = "EnchantedAura"
 libsDirName = "../releases"
@@ -34,7 +34,7 @@ task dev(type: Jar) {
 
 dependencies {
     compile files('build/libs/CoFHCore-[1.7.10]3.1.0-323-dev.jar')
-    compile files('build/libs/DimensionalCore-1.7.10-1.0.3-dev.jar')
+    compile files('build/libs/DimensionalCore-1.7.10-1.0.6-dev.jar')
 }
 
 processResources

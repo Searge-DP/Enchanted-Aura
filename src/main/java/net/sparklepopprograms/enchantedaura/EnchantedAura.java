@@ -36,8 +36,8 @@ import cpw.mods.fml.common.Mod.EventHandler;
 public class EnchantedAura {
 	
 	public static final String modid = "EnchantedAura";
-	public static final String version = "0.0.0-alpha";
-	public static final String dependencies = "required-after:DimensionalCore@[1.0.4,);required-after:ThermalExpansion@[1.7.10R4.1.1B237,)";
+	public static final String version = "0.0.1-alpha";
+	public static final String dependencies = "required-after:DimensionalCore@[1.0.6,)";
 	
 	@EventHandler
 	public void load(FMLPreInitializationEvent event) {

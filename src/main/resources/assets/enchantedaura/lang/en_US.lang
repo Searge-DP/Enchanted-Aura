@@ -1,0 +1,8 @@
+//Tab
+
+itemGroup.enchantedauratab=Enchanted Aura
+
+//Blocks
+
+tile.AuraBuffer.name=Aura Buffer
+tile.MagmicAuraEngine.name=Magmic Aura Engine
